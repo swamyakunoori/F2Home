@@ -16,7 +16,8 @@ import { FirstAccorianComponent } from './first-accorian/first-accorian.componen
     NgbModule,
     NgbAlertModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
