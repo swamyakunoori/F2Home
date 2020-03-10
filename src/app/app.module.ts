@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import {NgbModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { FirstAccorianComponent } from './first-accorian/first-accorian.component';
 
-import { NgReduxModule } from '@angular-redux/store';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +16,7 @@ import { NgReduxModule } from '@angular-redux/store';
     NgbModule,
     NgbAlertModule,
     BrowserModule,
-    AppRoutingModule,
-    NgReduxModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
