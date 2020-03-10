@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "F2Home": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "F2Home"
+    }
+  },
+  "defaultProject": "F2Home",
+  "cli": {
+    "analytics": "ec97ab2d-b91b-4b9d-8e6d-4f84b5a7690d"
+  }
 }
