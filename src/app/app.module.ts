@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import {NgbModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { FirstAccorianComponent } from './first-accorian/first-accorian.component';
 import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
+import { CarouselsFirstComponent } from './carousels-first/carousels-first.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstAccorianComponent,
-    NavbarMenuComponent
+    NavbarMenuComponent,
+    CarouselsFirstComponent
   ],
   imports: [
     NgbModule,
