@@ -9,6 +9,7 @@ import { FirstAccorianComponent } from './first-accorian/first-accorian.componen
 import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
 import { CarouselsFirstComponent } from './carousels-first/carousels-first.component';
 import { GroupCompanyComponent } from './group-company/group-company.component';
+import { GalleryFirstComponent } from './gallery-first/gallery-first.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GroupCompanyComponent } from './group-company/group-company.component';
     FirstAccorianComponent,
     NavbarMenuComponent,
     CarouselsFirstComponent,
-    GroupCompanyComponent
+    GroupCompanyComponent,
+    GalleryFirstComponent
   ],
   imports: [
     NgbModule,
